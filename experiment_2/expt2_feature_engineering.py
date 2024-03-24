@@ -198,6 +198,7 @@ print('Standardization')
 
 data7 = data5.copy()
 
+print('Printing Imputation column of Data7')
 data7['imputation'][:7]
 
 data7['standardized'] = (data7['imputation'] - data7['imputation'].mean()) / data7['imputation'].std()
