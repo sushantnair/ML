@@ -161,6 +161,7 @@ print(data5.head())
 
 RANGE = np.arange(20, 80, 1)
 
+print('Replacing Imputation column values with \'Nan\' value for those value falling within RANGE')
 print(data5['imputation'].replace(RANGE, np.nan, inplace = True))
 
 print(data5.head())
