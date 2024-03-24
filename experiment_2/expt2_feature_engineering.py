@@ -189,6 +189,7 @@ print(data6['imputation'][:7])
 
 data6['normalized'] = (data6['imputation'] - data6['imputation'].min()) / (data6['imputation'].max() - data6['imputation'].min())
 
+print('Printing Normalized column of Data6 (process is known as Normalization)')
 print(data6['normalized'][:7])
 
 """# **Standardization**"""
