@@ -203,4 +203,5 @@ data7['imputation'][:7]
 
 data7['standardized'] = (data7['imputation'] - data7['imputation'].mean()) / data7['imputation'].std()
 
+print('Printing standardized column of Data7 (the process is known as Standardization')
 print(data7['standardized'][:7])
