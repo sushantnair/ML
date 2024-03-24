@@ -145,6 +145,7 @@ print(data4.head())
 print('Unique values of Pollutant Max Min Bin column')
 print(data4['pollutant_max_min_bin'].unique())
 
+print('Value counts of  Pollutant Max Min Bin column')
 print(data4['pollutant_max_min_bin'].value_counts())
 
 """# **Imputation**"""
