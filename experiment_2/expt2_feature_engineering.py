@@ -167,6 +167,7 @@ print(data5['imputation'].replace(RANGE, np.nan, inplace = True))
 print('Head of Data5')
 print(data5.head())
 
+print('Value counts of Imputation column')
 print(data5['imputation'].value_counts())
 
 print(data5.isnull().sum())
