@@ -170,6 +170,7 @@ print(data5.head())
 print('Value counts of Imputation column')
 print(data5['imputation'].value_counts())
 
+print('Sum of null values in Data5')
 print(data5.isnull().sum())
 
 data5['imputation'] = data5['imputation'].fillna(data5['imputation'].median())
