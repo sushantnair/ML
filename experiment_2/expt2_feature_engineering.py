@@ -184,6 +184,7 @@ print('Normalization')
 
 data6 = data5.copy()
 
+print('Printing Imputation column of Data6')
 print(data6['imputation'][:7])
 
 data6['normalized'] = (data6['imputation'] - data6['imputation'].min()) / (data6['imputation'].max() - data6['imputation'].min())
