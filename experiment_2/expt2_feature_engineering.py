@@ -156,6 +156,7 @@ data5 = data4.copy()
 
 data5['imputation'] = np.random.randint(1, 1000, data5.shape[0])
 
+print('Data5 with new column called Imputation which has random integer values ranging from 1 to 1000.')
 print(data5.head())
 
 RANGE = np.arange(20, 80, 1)
