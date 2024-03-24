@@ -175,6 +175,7 @@ print(data5.isnull().sum())
 
 data5['imputation'] = data5['imputation'].fillna(data5['imputation'].median())
 
+print('Head of Data5 after filling null values in Imputation column with median of the values in Imputation column (process known as Imputation)')
 print(data5.head())
 
 """# **Normalization**"""
