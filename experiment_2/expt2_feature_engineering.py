@@ -142,6 +142,7 @@ data4['pollutant_max_min_bin'] = pd.qcut(data4['pollutant_max_min_avg'], q = 4, 
 
 print(data4.head())
 
+print('Unique values of Pollutant Max Min Bin column')
 print(data4['pollutant_max_min_bin'].unique())
 
 print(data4['pollutant_max_min_bin'].value_counts())
