@@ -1,0 +1,15 @@
+ID,Age,Income,Student,Credit_Rating,Buy_Car
+1,Y,H,N,F,N
+2,Y,H,N,E,N
+3,M,H,N,F,Y
+4,S,M,N,F,Y
+5,S,L,Y,F,Y
+6,S,L,Y,E,N
+7,M,L,Y,E,Y
+8,Y,M,N,F,N
+9,Y,L,Y,F,Y
+10,S,M,Y,F,Y
+11,Y,M,Y,E,Y
+12,M,M,N,E,Y
+13,M,H,Y,F,Y
+14,S,M,N,E,N
