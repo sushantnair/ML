@@ -1,0 +1,15 @@
+ID,Age,Income,Student,Credit_Rating,Buy_Car
+1,Youth,High,No,Fair,N
+2,Youth,High,No,Excellent,N
+3,Middleage,High,No,Fair,Y
+4,Senior,Mid,No,Fair,Y
+5,Senior,Low,Yes,Fair,Y
+6,Senior,Low,Yes,Excellent,N
+7,Middleage,Low,Yes,Excellent,Y
+8,Youth,Mid,No,Fair,N
+9,Youth,Low,Yes,Fair,Y
+10,Senior,Mid,Yes,Fair,Y
+11,Youth,Mid,Yes,Excellent,Y
+12,Middleage,Mid,No,Excellent,Y
+13,Middleage,High,Yes,Fair,Y
+14,Senior,Mid,No,Excellent,N
